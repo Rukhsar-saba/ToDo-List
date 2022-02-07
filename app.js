@@ -8,6 +8,7 @@ $(document).ready(() => {
     );
     $(this).val("");
   });
+  //   Add function for Icon
   $("ul").on("click", ".fa-trash", function () {
     $(this).parent("li").fadeOut(200);
   });

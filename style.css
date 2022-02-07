@@ -9,10 +9,15 @@
 body {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* background-color: #ff0; */
   background: linear-gradient(45deg, rgb(0, 255, 242) 50%, #333 50%);
+}
+h1 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 900;
 }
 .container {
   height: 450px;
@@ -30,7 +35,7 @@ body {
   outline: none;
   border: none;
   border-radius: 5px;
-  background: #666;
+  background: rgb(179, 174, 174);
   color: #fff;
   padding: 0 10px;
   margin: 15px 0;
